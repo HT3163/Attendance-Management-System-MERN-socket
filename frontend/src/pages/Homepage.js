@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Grid, Box } from '@mui/material';
 import styled from 'styled-components';
-import Students from "../assets/students.svg";
 import imgg from "../assets/img10.png"
 
 const Homepage = () => {
@@ -18,14 +17,14 @@ const Homepage = () => {
                         <StyledTitle id='welcomeid'>
                             Welcome to
                             <br />
-                            School Management
+                            Attendance Management
                             <br />
                             System
                         </StyledTitle>
                         <StyledText>
-                            Streamline school management, class organization, and add students and faculty.
+                            Streamline Attendance management, class organization, and add students and faculty.
                             Seamlessly track attendance, assess performance, and provide feedback.
-                            Access records, view marks, and communicate effortlessly.
+                            Access records and communicate effortlessly.
                         </StyledText>
                         <StyledBox>
 
